@@ -1,0 +1,33 @@
+{
+    "name": "amaccis/php-dict",
+    "type": "library",
+    "description": "a PHP DICT client",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrea Maccis",
+            "email": "andrea.maccis@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Amaccis\\Dict\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Amaccis\\Dict\\Tests\\": [
+                "tests/unit",
+                "tests/functional"
+            ]
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.5",
+        "phpstan/phpstan": "^0.12.11"
+    }
+}

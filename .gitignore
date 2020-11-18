@@ -1,0 +1,6 @@
+/.docker
+/.idea
+/.phpunit.result.cache
+coverage
+docker-compose.yml
+vendor
