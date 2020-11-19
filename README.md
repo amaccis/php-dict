@@ -1,6 +1,7 @@
 # php-dict
 
 [![PHP Version](https://img.shields.io/badge/php-%5E7.4-blue.svg)](https://img.shields.io/badge/php-%5E7.4-blue.svg)
+[![Build Status](https://travis-ci.org/amaccis/php-dict.svg?branch=master)](https://travis-ci.org/amaccis/php-dict)
 
 # The DICT Protocol
 
