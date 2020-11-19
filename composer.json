@@ -1,7 +1,7 @@
 {
     "name": "amaccis/php-dict",
     "type": "library",
-    "description": "a PHP DICT client",
+    "description": "A PHP DICT client",
     "license": "MIT",
     "authors": [
         {
