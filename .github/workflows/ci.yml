@@ -12,7 +12,13 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+        with:
+          php-version: '7.4'
       - name: Install dependencies
         run: composer install
+        with:
+          php-version: '7.4'
       - name: Run tests
         run: vendor/bin/phpunit
+        with:
+          php-version: '7.4'
